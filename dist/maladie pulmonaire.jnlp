@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="maladie pulmonaire.jnlp">
+  <information>
+    <title>maladie pulmonaire</title>
+    <vendor>hamou</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\fontawesomefx-8.1.jar" size="179086" download="eager" />
+    <jar href="lib\fontawesomefx-8.9-javadoc.jar" size="279185" download="eager" />
+    <jar href="lib\jfoenix(1).jar" size="2159593" download="eager" />
+    <jar href="lib\jpl-7.0.1.jar" size="58272" download="eager" />
+    <jar href="lib\jpl-util.jar" size="16997" download="eager" />
+    <jar href="lib\prueba2.jar" size="1102324" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="maladie pulmonaire" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="maladie.pulmonaire.MaladiePulmonaire"  name="maladie pulmonaire" />
+  <update check="always"/>
+</jnlp>

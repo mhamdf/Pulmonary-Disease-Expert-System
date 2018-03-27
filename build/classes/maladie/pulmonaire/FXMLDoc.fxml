@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="405.0" prefWidth="793.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="maladie.pulmonaire.FXMLDocController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="407.0" prefWidth="794.0" style="-fx-background-color: #74C6FF;">
+         <children>
+            <TabPane layoutY="35.0" prefHeight="372.0" prefWidth="794.0" tabClosingPolicy="UNAVAILABLE">
+               <tabs>
+                  <Tab text="Tuberculose">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="324.0" prefWidth="600.0" style="-fx-background-color: #30FFFF;">
+                           <children>
+                              <Text layoutX="53.0" layoutY="54.0" lineSpacing="3.0" strokeType="OUTSIDE" strokeWidth="0.0" text="La tuberculose est provoquée par une bactérie (Mycobacterium tuberculosis) qui touche le plus souvent les poumons. Elle peut être soignée et évitée.La maladie se propage d’une personne à l’autre par voie aérienne. Lorsque les personnes atteintes de tuberculose pulmonaire toussent, éternuent ou crachent, elles projettent les germes de la tuberculose dans l’air. Il suffit d’en inhaler seulement quelques-uns pour être infecté.Près d’un tiers de la population mondiale est actuellement atteinte de tuberculose latente, ce qui signifie que les personnes ont été infectées par la bactérie de la tuberculose mais n’ont pas (encore) développé la maladie et ne peuvent donc pas la transmettre.Chez les personnes infectées par le bacille tuberculeux, le risque de développer la maladie au cours de l’existence est de 10%. Toutefois, les personnes dont le système immunitaire est affaibli, telles que les personnes vivant avec le VIH, les personnes souffrant de malnutrition ou de diabète, ou encore les fumeurs, courent un risque beaucoup plus élevé de développer la maladie." textAlignment="CENTER" wrappingWidth="708.7421875">
+                                 <font>
+                                    <Font name="MadrasRegular" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Label layoutX="16.0" layoutY="10.0" prefHeight="28.0" prefWidth="94.0" text="Description">
+                                 <font>
+                                    <Font name="Poetsen One" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="20.0" layoutY="224.0" prefHeight="28.0" prefWidth="87.0" text="Traitement">
+                                 <font>
+                                    <Font name="Poetsen One" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Text layoutX="54.0" layoutY="271.0" lineSpacing="3.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le traitement de la tuberculose évolutive sensible aux médicaments consiste en un schéma thérapeutique standard de 6 mois associant 4 antimicrobiens qui sont fournis aux patients sous la supervision d’un agent de santé ou d’un bénévole qualifié qui apportera information et soutien. La grande majorité des cas de tuberculose peuvent être guéris à condition que les médicaments soient fournis et pris correctement." textAlignment="CENTER" wrappingWidth="705.7421875">
+                                 <font>
+                                    <Font name="MadrasRegular" size="15.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Pneumonie">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #20B3E8;">
+                           <children>
+                              <Label layoutX="29.0" layoutY="238.0" prefHeight="28.0" prefWidth="87.0" text="Traitement">
+                                 <font>
+                                    <Font name="Poetsen One" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="25.0" layoutY="-2.0" prefHeight="28.0" prefWidth="94.0" text="Description">
+                                 <font>
+                                    <Font name="Poetsen One" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Text layoutX="57.0" layoutY="288.0" lineSpacing="2.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pneumonie bactérienne. Chez les personnes en bonne santé, la plupart des pneumonies acquises dans la communauté sont traitées par un antibiotique de la classe des macrolides (érythromycine, clarithromycine, azithromycine). Il n’y a généralement pas de raison de se rendre à l’hôpital." textAlignment="CENTER" wrappingWidth="705.7421875">
+                                 <font>
+                                    <Font name="MadrasRegular" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="56.0" layoutY="37.0" lineSpacing="2.0" strokeType="OUTSIDE" strokeWidth="0.0" text="La pneumonie est une infection des poumons causée le plus souvent par un virus ou une bactérie.L’infection touche plus précisément les alvéoles pulmonaires, ces minuscules sacs en forme de ballons situés à l’extrémité des bronchioles (voir le schéma). Elle touche généralement un seul des 5 lobes du poumon (3 lobes dans le poumon droit et 2 dans le gauche), d’où le terme pneumonie lobaire. Lorsque la pneumonie atteint aussi les bronches, on l’appelle bronchopneumonie.   La pneumonie désigne en fait des infections très diverses qui peuvent être sans gravité ou mettre la vie en danger. Ainsi, si une pneumonie apparaît en complication d’une maladie grave ou chez une personne âgée, elle peut être mortelle. Dans de très rares cas, une pneumonie peut aussi être mortelle chez une personne en bonne santé.La maladie se manifeste généralement par une toux souvent accompagnée d’expectorations, d’essoufflement, de fièvre et des frissons. La pneumonie s’attrape le plus souvent comme une grippe ou un rhume, en inhalant des particules contaminées. Dans certains cas, elle survient après une autre infection respiratoire, comme une grippe ou une bronchite, qui « dégénère » et s’installe dans les alvéoles des poumons. Certains des symptômes peuvent durer plusieurs semaines. Elle est habituellement peu contagieuse." textAlignment="CENTER" wrappingWidth="708.7421875">
+                                 <font>
+                                    <Font name="MadrasRegular" size="15.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Byssinose">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #20E8B0;">
+                           <children>
+                              <Label layoutX="37.0" layoutY="185.0" prefHeight="28.0" prefWidth="87.0" text="Traitement">
+                                 <font>
+                                    <Font name="Poetsen One" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="34.0" layoutY="29.0" prefHeight="28.0" prefWidth="94.0" text="Description">
+                                 <font>
+                                    <Font name="Poetsen One" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Text layoutX="54.0" layoutY="80.0" lineSpacing="3.0" strokeType="OUTSIDE" strokeWidth="0.0" text="La byssinose est une forme d'hyperréactivité bronchique et des voies respiratoires caractérisée par une bronchoconstriction chez les travailleurs travaillant le coton, le chanvre et le lin. L'agent étiologique est une endotoxine bactérienne présente dans la poussière de coton. Les symptômes sont une oppression thoracique et une dyspnée qui s'aggravent au premier jour de la semaine de travail et s'amendent alors que la semaine passe. Le diagnostic repose sur l'anamnèse (médicale et professionnelle) et pulmonaires résultats des épreuves fonctionnelles respiratoires. Le traitement comprend l'éviction de toute exposition et la prise de médicaments contre l'asthme." textAlignment="CENTER" wrappingWidth="708.7421875">
+                                 <font>
+                                    <Font name="MadrasRegular" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="66.0" layoutY="232.0" lineSpacing="3.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Suppression de l’exposition, Médicaments pour ouvrir les voies respiratoires, L’exposition doit être supprimée chez les travailleurs symptomatiques qui présentent des réductions brusques de leur fonction respiratoire lors du premier jour de travail de la semaine. Les sifflements respiratoires et l’oppression thoracique peuvent être traités par les médicaments utilisés dans l’asthme ( Asthme : Traitement). Les médicaments qui dilatent les voies respiratoires (bronchodilatateurs) peuvent être administrés." textAlignment="CENTER" wrappingWidth="705.7421875">
+                                 <font>
+                                    <Font name="MadrasRegular" size="15.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Coqueluche">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #20E8B0;">
+                           <children>
+                              <Label layoutX="41.0" layoutY="155.0" prefHeight="28.0" prefWidth="87.0" text="Traitement">
+                                 <font>
+                                    <Font name="Poetsen One" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="37.0" layoutY="14.0" prefHeight="28.0" prefWidth="94.0" text="Description">
+                                 <font>
+                                    <Font name="Poetsen One" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Text layoutX="49.0" layoutY="57.0" lineSpacing="4.0" strokeType="OUTSIDE" strokeWidth="0.0" text="La coqueluche est une maladie respiratoire due à une bactérie appelée Bordetella Pertussis. Très contagieuse pour les personnes non immunisées, la coqueluche peut être grave chez les nourrissons et les personnes fragiles. Le traitement repose sur la prise d'antibiotiques. La vaccination permet de se protéger de la coqueluche, ce vaccin nécessite de nombreux rappels afin d'être correctement protégé.  L'Organisation Mondiale de la santé estime que chaque année, 300 000 enfants meurent de cette maladie sur 40 à 60 millions qui sont atteints, dont la majorité dans des pays en voie de développement." textAlignment="CENTER" wrappingWidth="708.7421875">
+                                 <font>
+                                    <Font name="MadrasRegular" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="50.0" layoutY="202.0" lineSpacing="3.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Antibiothérapie : en dépit de la sensibilité du germe à de nombreux antibiotiques (macrolides, tétracyclines, chloramphénicol), l'antibiothérapie ne modifie pas l'évolution de la maladie. La josamycine 50 mg/kg et par jour pendant 14 jours entraîne une éradication du germe. Fluidifiants, antitussifs, sédatifs, sont inefficaces et contre indiqués chez les jeunes enfants ;Corticoïdes (hydrocortisone, bétaméthasone) et salbutamol, même prescrits tardivement, réduisent l'intensité des quintes : ils ne sont pas d'usage courant mais utiles dans les formes graves ;Veiller au bon état d'hydratation et de nutrition ;Assurer un apport alimentaire suffisant, fractionné ; si besoin suppléments énergétiques .Favoriser l'évacuation bronchique et une bonne ventilation pulmonaire : kinésithérapie respiratoire si elle est bien supportée ;Isolement et surveillance." textAlignment="CENTER" wrappingWidth="705.7421875">
+                                 <font>
+                                    <Font name="MadrasRegular" size="15.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Pneumoconiose">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #20E8B0;">
+                           <children>
+                              <Text layoutX="68.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Il n'existe pas de médicament spécifique qui permette de guérir la maladie. Le traitement a essentiellement pour but d'atténuer les symptômes, notamment l'arthralgie, au moyen d’antipyrétiques, d’analgésiques et d’un apport optimal de liquides." textAlignment="CENTER" wrappingWidth="493.7421875">
+                                 <font>
+                                    <Font name="Montserrat Medium" size="12.0" />
+                                 </font>
+                              </Text>
+                              <Label layoutX="37.0" layoutY="192.0" prefHeight="28.0" prefWidth="87.0" text="Traitement">
+                                 <font>
+                                    <Font name="Poetsen One" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Text layoutX="68.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le chikungunya est une maladie virale transmise à l’homme par des moustiques infectés. Elle provoque de la fièvre et des arthralgies (douleurs articulaires) sévères. Les autres symptômes sont myalgies, céphalées, nausée, fatigue et éruption.Les douleurs articulaires sont souvent débilitantes et de durée variable.Cette maladie a quelques signes cliniques en commun avec la dengue et la maladie du virus Zika, ce qui peut entraîner un diagnostic erroné dans des zones où ces maladies cohabitent.Il n'existe pas de remède contre cette maladie. Le traitement est essentiellement symptomatique.Le fait que des sites de reproduction de moustiques se trouvent à proximité d'habitations constitue un sérieux facteur risque de chikungunya." textAlignment="CENTER" wrappingWidth="493.7421875">
+                                 <font>
+                                    <Font name="Montserrat Medium" size="12.0" />
+                                 </font>
+                              </Text>
+                              <Label layoutX="36.0" layoutY="17.0" prefHeight="28.0" prefWidth="94.0" text="Description">
+                                 <font>
+                                    <Font name="Poetsen One" size="16.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Sarcoidose">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #20E8B0;">
+                           <children>
+                              <Text layoutX="68.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Il n'existe pas de médicament spécifique qui permette de guérir la maladie. Le traitement a essentiellement pour but d'atténuer les symptômes, notamment l'arthralgie, au moyen d’antipyrétiques, d’analgésiques et d’un apport optimal de liquides." textAlignment="CENTER" wrappingWidth="493.7421875">
+                                 <font>
+                                    <Font name="Montserrat Medium" size="12.0" />
+                                 </font>
+                              </Text>
+                              <Label layoutX="37.0" layoutY="192.0" prefHeight="28.0" prefWidth="87.0" text="Traitement">
+                                 <font>
+                                    <Font name="Poetsen One" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Text layoutX="68.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le chikungunya est une maladie virale transmise à l’homme par des moustiques infectés. Elle provoque de la fièvre et des arthralgies (douleurs articulaires) sévères. Les autres symptômes sont myalgies, céphalées, nausée, fatigue et éruption.Les douleurs articulaires sont souvent débilitantes et de durée variable.Cette maladie a quelques signes cliniques en commun avec la dengue et la maladie du virus Zika, ce qui peut entraîner un diagnostic erroné dans des zones où ces maladies cohabitent.Il n'existe pas de remède contre cette maladie. Le traitement est essentiellement symptomatique.Le fait que des sites de reproduction de moustiques se trouvent à proximité d'habitations constitue un sérieux facteur risque de chikungunya." textAlignment="CENTER" wrappingWidth="493.7421875">
+                                 <font>
+                                    <Font name="Montserrat Medium" size="12.0" />
+                                 </font>
+                              </Text>
+                              <Label layoutX="36.0" layoutY="17.0" prefHeight="28.0" prefWidth="94.0" text="Description">
+                                 <font>
+                                    <Font name="Poetsen One" size="16.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Asbestose">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #20E8B0;">
+                           <children>
+                              <Text layoutX="68.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Il n'existe pas de médicament spécifique qui permette de guérir la maladie. Le traitement a essentiellement pour but d'atténuer les symptômes, notamment l'arthralgie, au moyen d’antipyrétiques, d’analgésiques et d’un apport optimal de liquides." textAlignment="CENTER" wrappingWidth="493.7421875">
+                                 <font>
+                                    <Font name="Montserrat Medium" size="12.0" />
+                                 </font>
+                              </Text>
+                              <Label layoutX="37.0" layoutY="192.0" prefHeight="28.0" prefWidth="87.0" text="Traitement">
+                                 <font>
+                                    <Font name="Poetsen One" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Text layoutX="68.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le chikungunya est une maladie virale transmise à l’homme par des moustiques infectés. Elle provoque de la fièvre et des arthralgies (douleurs articulaires) sévères. Les autres symptômes sont myalgies, céphalées, nausée, fatigue et éruption.Les douleurs articulaires sont souvent débilitantes et de durée variable.Cette maladie a quelques signes cliniques en commun avec la dengue et la maladie du virus Zika, ce qui peut entraîner un diagnostic erroné dans des zones où ces maladies cohabitent.Il n'existe pas de remède contre cette maladie. Le traitement est essentiellement symptomatique.Le fait que des sites de reproduction de moustiques se trouvent à proximité d'habitations constitue un sérieux facteur risque de chikungunya." textAlignment="CENTER" wrappingWidth="493.7421875">
+                                 <font>
+                                    <Font name="Montserrat Medium" size="12.0" />
+                                 </font>
+                              </Text>
+                              <Label layoutX="36.0" layoutY="17.0" prefHeight="28.0" prefWidth="94.0" text="Description">
+                                 <font>
+                                    <Font name="Poetsen One" size="16.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Asthme">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #20E8B0;">
+                           <children>
+                              <Text layoutX="68.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Il n'existe pas de médicament spécifique qui permette de guérir la maladie. Le traitement a essentiellement pour but d'atténuer les symptômes, notamment l'arthralgie, au moyen d’antipyrétiques, d’analgésiques et d’un apport optimal de liquides." textAlignment="CENTER" wrappingWidth="493.7421875">
+                                 <font>
+                                    <Font name="Montserrat Medium" size="12.0" />
+                                 </font>
+                              </Text>
+                              <Label layoutX="37.0" layoutY="192.0" prefHeight="28.0" prefWidth="87.0" text="Traitement">
+                                 <font>
+                                    <Font name="Poetsen One" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Text layoutX="68.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le chikungunya est une maladie virale transmise à l’homme par des moustiques infectés. Elle provoque de la fièvre et des arthralgies (douleurs articulaires) sévères. Les autres symptômes sont myalgies, céphalées, nausée, fatigue et éruption.Les douleurs articulaires sont souvent débilitantes et de durée variable.Cette maladie a quelques signes cliniques en commun avec la dengue et la maladie du virus Zika, ce qui peut entraîner un diagnostic erroné dans des zones où ces maladies cohabitent.Il n'existe pas de remède contre cette maladie. Le traitement est essentiellement symptomatique.Le fait que des sites de reproduction de moustiques se trouvent à proximité d'habitations constitue un sérieux facteur risque de chikungunya." textAlignment="CENTER" wrappingWidth="493.7421875">
+                                 <font>
+                                    <Font name="Montserrat Medium" size="12.0" />
+                                 </font>
+                              </Text>
+                              <Label layoutX="36.0" layoutY="17.0" prefHeight="28.0" prefWidth="94.0" text="Description">
+                                 <font>
+                                    <Font name="Poetsen One" size="16.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Bronchiolite">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #20E8B0;">
+                           <children>
+                              <Text layoutX="68.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Il n'existe pas de médicament spécifique qui permette de guérir la maladie. Le traitement a essentiellement pour but d'atténuer les symptômes, notamment l'arthralgie, au moyen d’antipyrétiques, d’analgésiques et d’un apport optimal de liquides." textAlignment="CENTER" wrappingWidth="493.7421875">
+                                 <font>
+                                    <Font name="Montserrat Medium" size="12.0" />
+                                 </font>
+                              </Text>
+                              <Label layoutX="37.0" layoutY="192.0" prefHeight="28.0" prefWidth="87.0" text="Traitement">
+                                 <font>
+                                    <Font name="Poetsen One" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Text layoutX="68.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le chikungunya est une maladie virale transmise à l’homme par des moustiques infectés. Elle provoque de la fièvre et des arthralgies (douleurs articulaires) sévères. Les autres symptômes sont myalgies, céphalées, nausée, fatigue et éruption.Les douleurs articulaires sont souvent débilitantes et de durée variable.Cette maladie a quelques signes cliniques en commun avec la dengue et la maladie du virus Zika, ce qui peut entraîner un diagnostic erroné dans des zones où ces maladies cohabitent.Il n'existe pas de remède contre cette maladie. Le traitement est essentiellement symptomatique.Le fait que des sites de reproduction de moustiques se trouvent à proximité d'habitations constitue un sérieux facteur risque de chikungunya." textAlignment="CENTER" wrappingWidth="493.7421875">
+                                 <font>
+                                    <Font name="Montserrat Medium" size="12.0" />
+                                 </font>
+                              </Text>
+                              <Label layoutX="36.0" layoutY="17.0" prefHeight="28.0" prefWidth="94.0" text="Description">
+                                 <font>
+                                    <Font name="Poetsen One" size="16.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Grippe">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #20E8B0;">
+                           <children>
+                              <Text layoutX="68.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Il n'existe pas de médicament spécifique qui permette de guérir la maladie. Le traitement a essentiellement pour but d'atténuer les symptômes, notamment l'arthralgie, au moyen d’antipyrétiques, d’analgésiques et d’un apport optimal de liquides." textAlignment="CENTER" wrappingWidth="493.7421875">
+                                 <font>
+                                    <Font name="Montserrat Medium" size="12.0" />
+                                 </font>
+                              </Text>
+                              <Label layoutX="37.0" layoutY="192.0" prefHeight="28.0" prefWidth="87.0" text="Traitement">
+                                 <font>
+                                    <Font name="Poetsen One" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Text layoutX="68.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le chikungunya est une maladie virale transmise à l’homme par des moustiques infectés. Elle provoque de la fièvre et des arthralgies (douleurs articulaires) sévères. Les autres symptômes sont myalgies, céphalées, nausée, fatigue et éruption.Les douleurs articulaires sont souvent débilitantes et de durée variable.Cette maladie a quelques signes cliniques en commun avec la dengue et la maladie du virus Zika, ce qui peut entraîner un diagnostic erroné dans des zones où ces maladies cohabitent.Il n'existe pas de remède contre cette maladie. Le traitement est essentiellement symptomatique.Le fait que des sites de reproduction de moustiques se trouvent à proximité d'habitations constitue un sérieux facteur risque de chikungunya." textAlignment="CENTER" wrappingWidth="493.7421875">
+                                 <font>
+                                    <Font name="Montserrat Medium" size="12.0" />
+                                 </font>
+                              </Text>
+                              <Label layoutX="36.0" layoutY="17.0" prefHeight="28.0" prefWidth="94.0" text="Description">
+                                 <font>
+                                    <Font name="Poetsen One" size="16.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Cancer du poumon">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="357.0" prefWidth="630.0" style="-fx-background-color: #20E8B0;">
+                           <children>
+                              <Text layoutX="68.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Il n'existe pas de médicament spécifique qui permette de guérir la maladie. Le traitement a essentiellement pour but d'atténuer les symptômes, notamment l'arthralgie, au moyen d’antipyrétiques, d’analgésiques et d’un apport optimal de liquides." textAlignment="CENTER" wrappingWidth="493.7421875">
+                                 <font>
+                                    <Font name="Montserrat Medium" size="12.0" />
+                                 </font>
+                              </Text>
+                              <Label layoutX="37.0" layoutY="192.0" prefHeight="28.0" prefWidth="87.0" text="Traitement">
+                                 <font>
+                                    <Font name="Poetsen One" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Text layoutX="68.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le chikungunya est une maladie virale transmise à l’homme par des moustiques infectés. Elle provoque de la fièvre et des arthralgies (douleurs articulaires) sévères. Les autres symptômes sont myalgies, céphalées, nausée, fatigue et éruption.Les douleurs articulaires sont souvent débilitantes et de durée variable.Cette maladie a quelques signes cliniques en commun avec la dengue et la maladie du virus Zika, ce qui peut entraîner un diagnostic erroné dans des zones où ces maladies cohabitent.Il n'existe pas de remède contre cette maladie. Le traitement est essentiellement symptomatique.Le fait que des sites de reproduction de moustiques se trouvent à proximité d'habitations constitue un sérieux facteur risque de chikungunya." textAlignment="CENTER" wrappingWidth="493.7421875">
+                                 <font>
+                                    <Font name="Montserrat Medium" size="12.0" />
+                                 </font>
+                              </Text>
+                              <Label layoutX="36.0" layoutY="17.0" prefHeight="28.0" prefWidth="94.0" text="Description">
+                                 <font>
+                                    <Font name="Poetsen One" size="16.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+               </tabs>
+            </TabPane>
+            <FontAwesomeIcon fill="#f51818" iconName="CLOSE" layoutX="761.0" layoutY="26.0" size="2em" />
+            <Label alignment="CENTER" contentDisplay="RIGHT" layoutX="-2.0" layoutY="4.0" prefHeight="28.0" prefWidth="794.0" text="La liste des maladies" textFill="WHITE">
+               <font>
+                  <Font name="Poetsen One" size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

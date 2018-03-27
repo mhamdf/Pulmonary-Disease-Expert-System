@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import com.jfoenix.controls.*?>
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="495.0" prefWidth="549.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="maladie.pulmonaire.FXMLMaladieController">
+   <children>
+      <Pane prefHeight="55.0" prefWidth="549.0" style="-fx-background-color: #23292a;">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="12.0" prefHeight="32.0" prefWidth="549.0" text="Le choix de(s) symptôme(s)" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Poetsen One" size="25.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="closeButton" alignment="BOTTOM_RIGHT" contentDisplay="GRAPHIC_ONLY" layoutX="513.0" layoutY="11.0" onAction="#closeButtonAction" style="-fx-background-color: #23292a;" textFill="#e3e2df">
+               <graphic>
+                  <FontAwesomeIcon fill="WHITE" iconName="CLOSE" size="2em" />
+               </graphic>
+            </JFXButton>
+         </children>
+      </Pane>
+      <AnchorPane layoutY="55.0" prefHeight="446.0" prefWidth="549.0" style="-fx-background-color: #ff4e4f;">
+         <children>
+            <JFXNodesList layoutX="3.0" layoutY="35.0" prefHeight="180.0" prefWidth="248.0" spacing="20.0">
+               <children>
+                  <JFXRadioButton fx:id="buttonPdp" onAction="#sendAction" text="La perte de poids" textFill="WHITE">
+                     <font>
+                        <Font name="Poetsen One" size="20.0" />
+                     </font>
+                  </JFXRadioButton>
+                  <JFXRadioButton fx:id="buttonMp" onAction="#sendAction2" text="La manque dappétit" textFill="WHITE">
+                     <font>
+                        <Font name="Poetsen One" size="20.0" />
+                     </font>
+                  </JFXRadioButton>
+                  <JFXRadioButton fx:id="buttonToux" onAction="#sendAction3" text="Toux" textFill="WHITE">
+                     <font>
+                        <Font name="Poetsen One" size="20.0" />
+                     </font>
+                  </JFXRadioButton>
+                  <JFXRadioButton fx:id="buttonTouxp" onAction="#sendAction4" text="Toux persistante" textFill="WHITE">
+                     <font>
+                        <Font name="Poetsen One" size="20.0" />
+                     </font>
+                  </JFXRadioButton>
+                  <JFXRadioButton fx:id="buttonTs" onAction="#sendAction5" text="Toux saigient" textFill="WHITE">
+                     <font>
+                        <Font name="Poetsen One" size="20.0" />
+                     </font>
+                  </JFXRadioButton>
+                  <JFXRadioButton fx:id="buttonRs" onAction="#sendAction11" text="La respiration sifflante" textFill="WHITE">
+                     <font>
+                        <Font name="Poetsen One" size="20.0" />
+                     </font>
+                  </JFXRadioButton>
+                  <JFXRadioButton fx:id="buttonOt" onAction="#sendAction12" text="Opression thoracique" textFill="WHITE">
+                     <font>
+                        <Font name="Poetsen One" size="20.0" />
+                     </font>
+                  </JFXRadioButton>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </JFXNodesList>
+            <JFXNodesList layoutX="287.0" layoutY="35.0" prefHeight="192.0" prefWidth="248.0" spacing="20.0">
+               <children>
+                  <JFXRadioButton fx:id="buttonFrissons" onAction="#sendAction6" text="Frissons" textFill="WHITE">
+                     <font>
+                        <Font name="Poetsen One" size="20.0" />
+                     </font>
+                  </JFXRadioButton>
+                  <JFXRadioButton fx:id="buttonEssoufflement" onAction="#sendAction7" text="Essoufflement" textFill="WHITE">
+                     <font>
+                        <Font name="Poetsen One" size="20.0" />
+                     </font>
+                  </JFXRadioButton>
+                  <JFXRadioButton fx:id="buttonNc" onAction="#sendAction8" text="Nez coulant" textFill="WHITE">
+                     <font>
+                        <Font name="Poetsen One" size="20.0" />
+                     </font>
+                  </JFXRadioButton>
+                  <JFXRadioButton fx:id="buttonLf" onAction="#sendAction9" text="Légere fièvre" textFill="WHITE">
+                     <font>
+                        <Font name="Poetsen One" size="20.0" />
+                     </font>
+                  </JFXRadioButton>
+                  <JFXRadioButton fx:id="buttonFc" onAction="#sendAction10" text="La fatigue constante" textFill="WHITE">
+                     <font>
+                        <Font name="Poetsen One" size="20.0" />
+                     </font>
+                  </JFXRadioButton>
+                  <JFXRadioButton fx:id="buttonPb" onAction="#sendAction13" text="La peau bleue" textFill="WHITE">
+                     <font>
+                        <Font name="Poetsen One" size="20.0" />
+                     </font>
+                  </JFXRadioButton>
+                  <JFXRadioButton fx:id="buttonTouxs" onAction="#sendAction14" text="Toux du sang" textFill="WHITE">
+                     <font>
+                        <Font name="Poetsen One" size="20.0" />
+                     </font>
+                  </JFXRadioButton>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </JFXNodesList>
+            <JFXButton fx:id="suivant" layoutX="224.0" layoutY="367.0" onAction="#suivant" prefHeight="55.0" prefWidth="129.0" style="-fx-background-color: #23292a;" text="Suivant" textFill="WHITE">
+               <font>
+                  <Font name="MadrasBlack" size="20.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
